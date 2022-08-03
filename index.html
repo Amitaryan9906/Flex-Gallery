@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX GALLERY</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+#nevbar{
+
+    height: 58px;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(56, 42, 91); 
+     align-items:center;
+}
+#nevbar>img{
+  
+    height: 75%;
+    width: 7%;
+  
+    padding-left: 40px;
+
+}
+#nevbar>div{
+    height: 95%;
+    width: 30%;
+  
+    text-transform: uppercase;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    padding-right: 10px;
+}
+#nevbar>div:hover{
+    color: red;
+   
+}
+p{
+    font-size: 17px;
+}
+h1{
+
+    height:auto;
+    width:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-transform: uppercase;
+    color: red;
+}
+.container{
+
+    height: auto;
+    width:80%;
+    margin:auto;
+ justify-content: space-evenly;
+ align-items: center;
+ flex-wrap: wrap;
+ display:flex;
+justify-content: space; 
+grid-gap: 30px;
+margin-bottom:60px;
+
+}
+.container>img{
+    
+ 
+    width: 30%;
+    border-radius:15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+    </style>
+</head>
+<body>
+    <div id="nevbar">
+        <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="">
+        <div>
+            <p>home</p>
+            <p>gallery</p>
+            <p>about</p>
+        </div>
+    </div>
+    <h1>photo gallery</h1>
+    <div class="container">
+        <img src="https://www.operagallery.com/storage/viewingrooms/Giants-11.jpeg" alt="">
+        <img src="https://www.operagallery.com/storage/viewingrooms/Giants-11.jpeg" alt="">
+        <img src="https://www.operagallery.com/storage/viewingrooms/Giants-11.jpeg" alt="">
+        <img src="https://www.operagallery.com/storage/viewingrooms/Giants-11.jpeg" alt="">
+        <img src="https://www.operagallery.com/storage/viewingrooms/Giants-11.jpeg" alt="">
+        <img src="https://www.operagallery.com/storage/viewingrooms/Giants-11.jpeg" alt="">
+    </div>
+</body>
+</html>
